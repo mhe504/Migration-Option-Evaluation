@@ -1,0 +1,29 @@
+Info: DeliveryProcess:methodology: 616 mini seconds publishing element
+Info: DeliveryProcess:methodology: 212 mini seconds publishing process specific layout data
+Info: Phase:Planning: 156 mini seconds publishing element
+Info: Task:select_simulation_goal: 33 mini seconds publishing element
+Info: TaskDescriptor:select_simulation_goal: 31 mini seconds publishing element
+Info: Task:determine_security_requirements: 1 mini seconds publishing element
+Info: TaskDescriptor:determine_security_requirements: 4 mini seconds publishing element
+Info: Task:search_for_workload_information_sources: 12 mini seconds publishing element
+Info: TaskDescriptor:search_for_workload_information_sources: 16 mini seconds publishing element
+Info: Phase:Modelling: 174 mini seconds publishing element
+Info: Task:schema_extraction: 16 mini seconds publishing element
+Info: TaskDescriptor:schema_extraction: 16 mini seconds publishing element
+Info: Task:query_logging: 15 mini seconds publishing element
+Info: TaskDescriptor:query_logging: 1 mini seconds publishing element
+Info: Task:obtain_workload_data: 0 mini seconds publishing element
+Info: TaskDescriptor:obtain_workload_data: 43 mini seconds publishing element
+Info: Task:model_transformation: 16 mini seconds publishing element
+Info: TaskDescriptor:model_transformation: 16 mini seconds publishing element
+Info: Phase:Simulation: 125 mini seconds publishing element
+Info: Task:create_cloud_cost_model: 6 mini seconds publishing element
+Info: TaskDescriptor:create_cloud_cost_model: 36 mini seconds publishing element
+Info: Task:determine_database_performance: 15 mini seconds publishing element
+Info: TaskDescriptor:determine_database_performance: 16 mini seconds publishing element
+Info: Task:execute_simulations: 15 mini seconds publishing element
+Info: TaskDescriptor:execute_simulations: 16 mini seconds publishing element
+Info: CustomCategory:Configuration free process view: 31 mini seconds publishing element
+Info: CustomCategory:Tasks: 16 mini seconds publishing element
+Info: CustomCategory:Processes: 16 mini seconds publishing element
+Info: : Publishing time: 0 minutes 4 seconds

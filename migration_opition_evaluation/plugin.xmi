@@ -5,6 +5,8 @@
     <resourceDescriptors xmi:id="_04BhoXN6EeeXYNQ0s8Jyrg" id="-aRuh0IMIRjAmFEa9Y1XqpQ" uri="tasks/select_simulation_goal.xmi"/>
     <resourceDescriptors xmi:id="_4rh4YHOOEeeXYNQ0s8Jyrg" id="-7O2v2Me7yRi3Ud-hPU2mQQ" uri="tasks/determine_security_requirements.xmi"/>
     <resourceDescriptors xmi:id="_-l56MHOQEeeXYNQ0s8Jyrg" id="_-l1BsHOQEeeXYNQ0s8Jyrg" uri="deliveryprocesses/methodology/model.xmi"/>
+    <resourceDescriptors xmi:id="_3KRTIHnzEeeXYNQ0s8Jyrg" id="-fLB2khnjGhdgu-LLNuxgHw" uri="tasks/obtain_workload_data.xmi"/>
+    <resourceDescriptors xmi:id="_91754HnzEeeXYNQ0s8Jyrg" id="-YomhaFcj1g_TQwZTuIdQCQ" uri="tasks/query_logging.xmi"/>
   </org.eclipse.epf.uma.resourcemanager:ResourceManager>
   <org.eclipse.epf.uma:MethodPlugin xmi:id="_ddJS8HN3EeeXYNQ0s8Jyrg" name="migration_opition_evaluation" guid="_ddJS8HN3EeeXYNQ0s8Jyrg" presentationName="Migration Opition Evaluation" briefDescription="A methodology for evaluating impact of cloud database migration options (e.g., cloud provider and instance type) on: migration duration, migration cost, and running cost." authors="Martyn Ellison" changeDate="2017-07-28T11:31:06.881+0100" changeDescription="Initial Version" version="1.0">
     <methodElementProperty xmi:id="_ddTD8nN3EeeXYNQ0s8Jyrg" name="plugin_synFree" value="true"/>
@@ -38,25 +40,26 @@
             <methodElementProperty xmi:id="_GRq-8HOEEeeXYNQ0s8Jyrg" name="me_edited" value="true"/>
             <presentation xmi:id="-7O2v2Me7yRi3Ud-hPU2mQQ" href="uma://-7O2v2Me7yRi3Ud-hPU2mQQ#-7O2v2Me7yRi3Ud-hPU2mQQ"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_GV7y4HOPEeeXYNQ0s8Jyrg" name="search_for_workload_information_sources" guid="_GV7y4HOPEeeXYNQ0s8Jyrg" presentationName="Search for Workload Information Sources">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_GV7y4HOPEeeXYNQ0s8Jyrg" name="search_for_workload_information_sources" guid="_GV7y4HOPEeeXYNQ0s8Jyrg" presentationName="Search for Workload Information Sources" briefDescription="Review the logging and monitoring data produced by the existing system, and determine if the database workload can be measured or inferred.">
             <methodElementProperty xmi:id="_oY3swHOPEeeXYNQ0s8Jyrg" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_TKIeIHOPEeeXYNQ0s8Jyrg" name="schema_extraction" guid="_TKIeIHOPEeeXYNQ0s8Jyrg" presentationName="Schema Extraction">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_TKIeIHOPEeeXYNQ0s8Jyrg" name="schema_extraction" guid="_TKIeIHOPEeeXYNQ0s8Jyrg" presentationName="Schema Extraction" briefDescription="Extract a SQL schema from the existing database using some existing tooling. For example, Oracle SQL Developer can extra a schema from Oracle databases.">
             <methodElementProperty xmi:id="_oi_5IHOPEeeXYNQ0s8Jyrg" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_pM4joHOPEeeXYNQ0s8Jyrg" name="obtain_workload_data" guid="_pM4joHOPEeeXYNQ0s8Jyrg" presentationName="Obtain Workload Data">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_pM4joHOPEeeXYNQ0s8Jyrg" name="obtain_workload_data" guid="_pM4joHOPEeeXYNQ0s8Jyrg" presentationName="Obtain Workload Data" briefDescription="Obtain the workload data from the previously identified sources. It must be processed to produce CSV/Text file in the MigSim format.">
             <methodElementProperty xmi:id="_w_NQcHOPEeeXYNQ0s8Jyrg" name="me_edited" value="true"/>
+            <presentation xmi:id="-fLB2khnjGhdgu-LLNuxgHw" href="uma://-fLB2khnjGhdgu-LLNuxgHw#-fLB2khnjGhdgu-LLNuxgHw"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_xZtbIHOPEeeXYNQ0s8Jyrg" name="model_transformation" guid="_xZtbIHOPEeeXYNQ0s8Jyrg" presentationName="Model Transformation">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_xZtbIHOPEeeXYNQ0s8Jyrg" name="model_transformation" guid="_xZtbIHOPEeeXYNQ0s8Jyrg" presentationName="Model Transformation" briefDescription="Execute DBLModeller to perform the model transformations.">
             <methodElementProperty xmi:id="__SgW8HOPEeeXYNQ0s8Jyrg" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_zd7VoHOPEeeXYNQ0s8Jyrg" name="obtain_cloud_price_data" guid="_zd7VoHOPEeeXYNQ0s8Jyrg" presentationName="Obtain Cloud Price Data">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_zd7VoHOPEeeXYNQ0s8Jyrg" name="create_cloud_cost_model" guid="_zd7VoHOPEeeXYNQ0s8Jyrg" presentationName="Create Cloud Cost Model(s)" briefDescription="For each cloud provider create a Cost Model conforming to MigSim's Cloud Cost Metamodel.">
             <methodElementProperty xmi:id="_2EV-QHOPEeeXYNQ0s8Jyrg" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_2niK4HOPEeeXYNQ0s8Jyrg" name="determine_database_performance" guid="_2niK4HOPEeeXYNQ0s8Jyrg" presentationName="Determine Database Performance">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_2niK4HOPEeeXYNQ0s8Jyrg" name="determine_database_performance" guid="_2niK4HOPEeeXYNQ0s8Jyrg" presentationName="Determine Database Performance" briefDescription="The performance of the database's storage mechanism (i.e., SSD, HDD, or cloud storage service) should be established, in IOPS.">
             <methodElementProperty xmi:id="__S9C4HOPEeeXYNQ0s8Jyrg" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_9AaYgHOPEeeXYNQ0s8Jyrg" name="execute_simulations" guid="_9AaYgHOPEeeXYNQ0s8Jyrg" presentationName="Execute Simulations">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_9AaYgHOPEeeXYNQ0s8Jyrg" name="execute_simulations" guid="_9AaYgHOPEeeXYNQ0s8Jyrg" presentationName="Execute Simulations" briefDescription="Execute a MigSim simulation for each set of migrations options.">
             <methodElementProperty xmi:id="__Vn8YHOPEeeXYNQ0s8Jyrg" name="me_edited" value="true"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_D1Ua0HOQEeeXYNQ0s8Jyrg" name="cloud_cost_model" guid="_D1Ua0HOQEeeXYNQ0s8Jyrg" presentationName="Cloud Cost Model">
@@ -95,8 +98,9 @@
           <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_kJaNQHOQEeeXYNQ0s8Jyrg" name="workload_data" guid="_kJaNQHOQEeeXYNQ0s8Jyrg" presentationName="Workload Data">
             <methodElementProperty xmi:id="_s-61YHOQEeeXYNQ0s8Jyrg" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_92rpEHXHEeeXYNQ0s8Jyrg" name="query_logging" guid="_92rpEHXHEeeXYNQ0s8Jyrg" presentationName="Query Logging">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_92rpEHXHEeeXYNQ0s8Jyrg" name="query_logging" guid="_92rpEHXHEeeXYNQ0s8Jyrg" presentationName="Query Logging" briefDescription="Capture queries sent between the system and the database to determine workload.">
             <methodElementProperty xmi:id="__X91oHXHEeeXYNQ0s8Jyrg" name="me_edited" value="true"/>
+            <presentation xmi:id="-YomhaFcj1g_TQwZTuIdQCQ" href="uma://-YomhaFcj1g_TQwZTuIdQCQ#-YomhaFcj1g_TQwZTuIdQCQ"/>
           </contentElements>
         </childPackages>
       </childPackages>

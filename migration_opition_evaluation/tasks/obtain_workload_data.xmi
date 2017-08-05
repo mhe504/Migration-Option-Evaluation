@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-fLB2khnjGhdgu-LLNuxgHw" name=",_pM4joHOPEeeXYNQ0s8Jyrg" guid="-fLB2khnjGhdgu-LLNuxgHw" changeDate="2017-08-05T17:36:29.065+0100">
+  <keyConsiderations>MigSim CSV format, Line 1: System Name, Scope (String), Entity Name. Line 2 to n: Measurement Period Alias (String),&#xD;
+Measurement Period Start (Timestamp; yyyy-mm-dd hh:mm:ss), Measurement Period End (Timestamp; yyyy-mm-dd hh:mm:ss), Entity&#xD;
+Count (Integer),&amp;nbsp; Entity Reads (Integer), Entity Writes (Integer), Unused Entities (Integer), Database Size (Double).</keyConsiderations>
+</org.eclipse.epf.uma:TaskDescription>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-YomhaFcj1g_TQwZTuIdQCQ" name=",_92rpEHXHEeeXYNQ0s8Jyrg" guid="-YomhaFcj1g_TQwZTuIdQCQ" changeDate="2017-08-05T17:37:08.205+0100">
+  <mainDescription>&lt;pre style=&quot;MARGIN: 0px; TEXT-INDENT: 0px; -qt-block-indent: 0&quot;>&#xD;
+&lt;!--StartFragment-->&lt;span&#xD;
+style=&quot;COLOR: #000000&quot;>Query Logging is a method for providing detailed workload information by intercepting queries sent from the software system to the database and recording them. Several third-party tools can perform this task, the output should be list of SQL queries and the time they were made.&lt;/span>&lt;!--EndFragment-->&#xD;
+&lt;/pre></mainDescription>
+</org.eclipse.epf.uma:TaskDescription>
