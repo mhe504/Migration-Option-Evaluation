@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_ddTD8HN3EeeXYNQ0s8Jyrg" guid="_ddTD8HN3EeeXYNQ0s8Jyrg">
+    <subManagers xmi:id="_-mzSEHOQEeeXYNQ0s8Jyrg" href="uma://_-l1BsHOQEeeXYNQ0s8Jyrg#_-mzSEHOQEeeXYNQ0s8Jyrg"/>
+    <resourceDescriptors xmi:id="_04BhoXN6EeeXYNQ0s8Jyrg" id="-aRuh0IMIRjAmFEa9Y1XqpQ" uri="tasks/select_simulation_goal.xmi"/>
+    <resourceDescriptors xmi:id="_4rh4YHOOEeeXYNQ0s8Jyrg" id="-7O2v2Me7yRi3Ud-hPU2mQQ" uri="tasks/determine_security_requirements.xmi"/>
+    <resourceDescriptors xmi:id="_-l56MHOQEeeXYNQ0s8Jyrg" id="_-l1BsHOQEeeXYNQ0s8Jyrg" uri="deliveryprocesses/methodology/model.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_ddJS8HN3EeeXYNQ0s8Jyrg" name="migration_opition_evaluation" guid="_ddJS8HN3EeeXYNQ0s8Jyrg" presentationName="Migration Opition Evaluation" briefDescription="A methodology for evaluating impact of cloud database migration options (e.g., cloud provider and instance type) on: migration duration, migration cost, and running cost." authors="Martyn Ellison" changeDate="2017-07-28T11:31:06.881+0100" changeDescription="Initial Version" version="1.0">
+    <methodElementProperty xmi:id="_ddTD8nN3EeeXYNQ0s8Jyrg" name="plugin_synFree" value="true"/>
+    <methodElementProperty xmi:id="_ibhRcHN3EeeXYNQ0s8Jyrg" name="me_edited" value="true"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_ddJS8XN3EeeXYNQ0s8Jyrg" name="Content" guid="_ddJS8XN3EeeXYNQ0s8Jyrg">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_ddJ6AHN3EeeXYNQ0s8Jyrg" name="Categories" guid="_ddJ6AHN3EeeXYNQ0s8Jyrg">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_ddJ6AXN3EeeXYNQ0s8Jyrg" name="Domains" guid="_ddJ6AXN3EeeXYNQ0s8Jyrg"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_ddJ6AnN3EeeXYNQ0s8Jyrg" name="Disciplines" guid="_ddJ6AnN3EeeXYNQ0s8Jyrg"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_ddJ6A3N3EeeXYNQ0s8Jyrg" name="RoleSets" guid="_ddJ6A3N3EeeXYNQ0s8Jyrg"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_ddJ6BHN3EeeXYNQ0s8Jyrg" name="WP Types" guid="_ddJ6BHN3EeeXYNQ0s8Jyrg"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_ddJ6BXN3EeeXYNQ0s8Jyrg" name="Tools" guid="_ddJ6BXN3EeeXYNQ0s8Jyrg"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_ddJ6BnN3EeeXYNQ0s8Jyrg" name="StandardCategories" guid="_ddJ6BnN3EeeXYNQ0s8Jyrg"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_ddJ6B3N3EeeXYNQ0s8Jyrg" name="CustomCategories" guid="_ddJ6B3N3EeeXYNQ0s8Jyrg">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_ddJ6CHN3EeeXYNQ0s8Jyrg" name="Hidden" guid="_ddJ6CHN3EeeXYNQ0s8Jyrg">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_ddJ6CXN3EeeXYNQ0s8Jyrg" name="Custom Categories" guid="_ddJ6CXN3EeeXYNQ0s8Jyrg"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_ddJ6CnN3EeeXYNQ0s8Jyrg" name="CoreContent" guid="_ddJ6CnN3EeeXYNQ0s8Jyrg">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_AEPp0HN4EeeXYNQ0s8Jyrg" name="migration_evaluation_method" guid="_AEPp0HN4EeeXYNQ0s8Jyrg" presentationName="Migration Evaluation Method">
+          <methodElementProperty xmi:id="_AEPp0XN4EeeXYNQ0s8Jyrg" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_kxksYHODEeeXYNQ0s8Jyrg" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_Oq_QwHN4EeeXYNQ0s8Jyrg" name="software_engineer" guid="_Oq_QwHN4EeeXYNQ0s8Jyrg" presentationName="Software Engineer" briefDescription="A software engineer working on the cloud database migration project.">
+            <methodElementProperty xmi:id="_Q6WrUHN4EeeXYNQ0s8Jyrg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_ShLfMHN4EeeXYNQ0s8Jyrg" name="select_simulation_goal" guid="_ShLfMHN4EeeXYNQ0s8Jyrg" presentationName="Select Simulation Goal" briefDescription="Select a goal for the simulation, i.e., what question will the simulation answer.">
+            <methodElementProperty xmi:id="_kWeFwHN4EeeXYNQ0s8Jyrg" name="me_edited" value="true"/>
+            <presentation xmi:id="-aRuh0IMIRjAmFEa9Y1XqpQ" href="uma://-aRuh0IMIRjAmFEa9Y1XqpQ#-aRuh0IMIRjAmFEa9Y1XqpQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_mCPDAHODEeeXYNQ0s8Jyrg" name="determine_security_requirements" guid="_mCPDAHODEeeXYNQ0s8Jyrg" presentationName="Determine Security Requirements" briefDescription="The security requirements for the new cloud database and the migration of existing data to it should be identified.">
+            <methodElementProperty xmi:id="_GRq-8HOEEeeXYNQ0s8Jyrg" name="me_edited" value="true"/>
+            <presentation xmi:id="-7O2v2Me7yRi3Ud-hPU2mQQ" href="uma://-7O2v2Me7yRi3Ud-hPU2mQQ#-7O2v2Me7yRi3Ud-hPU2mQQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_GV7y4HOPEeeXYNQ0s8Jyrg" name="search_for_workload_information_sources" guid="_GV7y4HOPEeeXYNQ0s8Jyrg" presentationName="Search for Workload Information Sources">
+            <methodElementProperty xmi:id="_oY3swHOPEeeXYNQ0s8Jyrg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_TKIeIHOPEeeXYNQ0s8Jyrg" name="schema_extraction" guid="_TKIeIHOPEeeXYNQ0s8Jyrg" presentationName="Schema Extraction">
+            <methodElementProperty xmi:id="_oi_5IHOPEeeXYNQ0s8Jyrg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_pM4joHOPEeeXYNQ0s8Jyrg" name="obtain_workload_data" guid="_pM4joHOPEeeXYNQ0s8Jyrg" presentationName="Obtain Workload Data">
+            <methodElementProperty xmi:id="_w_NQcHOPEeeXYNQ0s8Jyrg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_xZtbIHOPEeeXYNQ0s8Jyrg" name="model_transformation" guid="_xZtbIHOPEeeXYNQ0s8Jyrg" presentationName="Model Transformation">
+            <methodElementProperty xmi:id="__SgW8HOPEeeXYNQ0s8Jyrg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_zd7VoHOPEeeXYNQ0s8Jyrg" name="obtain_cloud_price_data" guid="_zd7VoHOPEeeXYNQ0s8Jyrg" presentationName="Obtain Cloud Price Data">
+            <methodElementProperty xmi:id="_2EV-QHOPEeeXYNQ0s8Jyrg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_2niK4HOPEeeXYNQ0s8Jyrg" name="determine_database_performance" guid="_2niK4HOPEeeXYNQ0s8Jyrg" presentationName="Determine Database Performance">
+            <methodElementProperty xmi:id="__S9C4HOPEeeXYNQ0s8Jyrg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_9AaYgHOPEeeXYNQ0s8Jyrg" name="execute_simulations" guid="_9AaYgHOPEeeXYNQ0s8Jyrg" presentationName="Execute Simulations">
+            <methodElementProperty xmi:id="__Vn8YHOPEeeXYNQ0s8Jyrg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_D1Ua0HOQEeeXYNQ0s8Jyrg" name="cloud_cost_model" guid="_D1Ua0HOQEeeXYNQ0s8Jyrg" presentationName="Cloud Cost Model">
+            <methodElementProperty xmi:id="_s3ohoHOQEeeXYNQ0s8Jyrg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_FlFvUHOQEeeXYNQ0s8Jyrg" name="workload_model" guid="_FlFvUHOQEeeXYNQ0s8Jyrg" presentationName="Workload Model">
+            <methodElementProperty xmi:id="_s4FNkHOQEeeXYNQ0s8Jyrg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_HvkC0HOQEeeXYNQ0s8Jyrg" name="structure_model" guid="_HvkC0HOQEeeXYNQ0s8Jyrg" presentationName="Structure Model">
+            <methodElementProperty xmi:id="_s400cHOQEeeXYNQ0s8Jyrg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_KJCboHOQEeeXYNQ0s8Jyrg" name="migration_infrastructure" guid="_KJCboHOQEeeXYNQ0s8Jyrg" presentationName="Migration Infrastructure">
+            <methodElementProperty xmi:id="_s5HvYHOQEeeXYNQ0s8Jyrg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Outcome" xmi:id="_Ql0R0HOQEeeXYNQ0s8Jyrg" name="simulated_results" guid="_Ql0R0HOQEeeXYNQ0s8Jyrg" presentationName="Simulated Results">
+            <methodElementProperty xmi:id="_s6UCMHOQEeeXYNQ0s8Jyrg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_UEc74HOQEeeXYNQ0s8Jyrg" name="source_database_iops" guid="_UEc74HOQEeeXYNQ0s8Jyrg" presentationName="Source Database IOPS">
+            <methodElementProperty xmi:id="_s78Z4HOQEeeXYNQ0s8Jyrg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_WYAS4HOQEeeXYNQ0s8Jyrg" name="target_database_iops" guid="_WYAS4HOQEeeXYNQ0s8Jyrg" presentationName="Target Database IOPS">
+            <methodElementProperty xmi:id="_s8ZF0HOQEeeXYNQ0s8Jyrg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_YXYwsHOQEeeXYNQ0s8Jyrg" name="middleware_iops" guid="_YXYwsHOQEeeXYNQ0s8Jyrg" presentationName="Middleware IOPS">
+            <methodElementProperty xmi:id="_s8_iwHOQEeeXYNQ0s8Jyrg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_aoYi8HOQEeeXYNQ0s8Jyrg" name="gateway_iops" guid="_aoYi8HOQEeeXYNQ0s8Jyrg" presentationName="Gateway IOPS">
+            <methodElementProperty xmi:id="_s9bnoHOQEeeXYNQ0s8Jyrg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_c3uIUHOQEeeXYNQ0s8Jyrg" name="simulation_goal" guid="_c3uIUHOQEeeXYNQ0s8Jyrg" presentationName="Simulation Goal">
+            <methodElementProperty xmi:id="_s-CEkHOQEeeXYNQ0s8Jyrg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_hkv4IHOQEeeXYNQ0s8Jyrg" name="query_log" guid="_hkv4IHOQEeeXYNQ0s8Jyrg" presentationName="Query Log">
+            <methodElementProperty xmi:id="_s-ewgHOQEeeXYNQ0s8Jyrg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_kJaNQHOQEeeXYNQ0s8Jyrg" name="workload_data" guid="_kJaNQHOQEeeXYNQ0s8Jyrg" presentationName="Workload Data">
+            <methodElementProperty xmi:id="_s-61YHOQEeeXYNQ0s8Jyrg" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_92rpEHXHEeeXYNQ0s8Jyrg" name="query_logging" guid="_92rpEHXHEeeXYNQ0s8Jyrg" presentationName="Query Logging">
+            <methodElementProperty xmi:id="__X91oHXHEeeXYNQ0s8Jyrg" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_ddJ6C3N3EeeXYNQ0s8Jyrg" name="CapabilityPatterns" guid="_ddJ6C3N3EeeXYNQ0s8Jyrg"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_ddJ6DHN3EeeXYNQ0s8Jyrg" name="DeliveryProcesses" guid="_ddJ6DHN3EeeXYNQ0s8Jyrg">
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_6ZOeYHOQEeeXYNQ0s8Jyrg" name="Process Package" guid="_6ZOeYHOQEeeXYNQ0s8Jyrg">
+        <methodElementProperty xmi:id="_6ZOeYXOQEeeXYNQ0s8Jyrg" name="pkg_loadCheck" value="true"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_-l1BsHOQEeeXYNQ0s8Jyrg" href="uma://_-l1BsHOQEeeXYNQ0s8Jyrg#_-l1BsHOQEeeXYNQ0s8Jyrg"/>
+      </childPackages>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_ddJ6DXN3EeeXYNQ0s8Jyrg" name="ProcessContributions" guid="_ddJ6DXN3EeeXYNQ0s8Jyrg"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

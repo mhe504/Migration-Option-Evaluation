@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_-mzSEHOQEeeXYNQ0s8Jyrg" guid="_-mzSEHOQEeeXYNQ0s8Jyrg">
+    <resourceDescriptors xmi:id="_-mzSEXOQEeeXYNQ0s8Jyrg" id="-qvE6wd1c0sJjuOii6WUojw" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_aO9g4HOREeeXYNQ0s8Jyrg" id="-Stncb2C21m02CqOTnfOb4Q" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_i-QMQXOREeeXYNQ0s8Jyrg" id="-h9GoBEnmOHwKMbwxP1fvPw" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_-l1BsHOQEeeXYNQ0s8Jyrg" name="methodology" guid="_-l1BsHOQEeeXYNQ0s8Jyrg">
+    <methodElementProperty xmi:id="_-l1BsnOQEeeXYNQ0s8Jyrg" name="pkg_loadCheck" value="true"/>
+    <methodElementProperty xmi:id="_RIvjQHOREeeXYNQ0s8Jyrg" name="me_edited" value="true"/>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_TGWfcHOREeeXYNQ0s8Jyrg" name="Planning" guid="_TGWfcHOREeeXYNQ0s8Jyrg">
+      <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_TGWfcXOREeeXYNQ0s8Jyrg" name="Planning" guid="_TGWfcXOREeeXYNQ0s8Jyrg" presentationName="Planning" superActivities="_-l1BsXOQEeeXYNQ0s8Jyrg" breakdownElements="_Ubl0EHOREeeXYNQ0s8Jyrg _bPM14HOREeeXYNQ0s8Jyrg _eeL6YHOREeeXYNQ0s8Jyrg"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_Ubl0EHOREeeXYNQ0s8Jyrg" name="select_simulation_goal" guid="_Ubl0EHOREeeXYNQ0s8Jyrg" presentationName="Select Simulation Goal" briefDescription="Select a goal for the simulation, i.e., what question will the simulation answer." superActivities="_TGWfcXOREeeXYNQ0s8Jyrg" isSynchronizedWithSource="false">
+        <methodElementProperty xmi:id="_YXIckHOREeeXYNQ0s8Jyrg" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <presentation xmi:id="-Stncb2C21m02CqOTnfOb4Q" href="uma://-qvE6wd1c0sJjuOii6WUojw#-Stncb2C21m02CqOTnfOb4Q"/>
+        <Task href="uma://_ddJS8HN3EeeXYNQ0s8Jyrg#_ShLfMHN4EeeXYNQ0s8Jyrg"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_bPM14HOREeeXYNQ0s8Jyrg" name="determine_security_requirements" guid="_bPM14HOREeeXYNQ0s8Jyrg" presentationName="Determine Security Requirements" briefDescription="The security requirements for the new cloud database and the migration of existing data to it should be identified." superActivities="_TGWfcXOREeeXYNQ0s8Jyrg" linkToPredecessor="_cp6RkHRbEeeXYNQ0s8Jyrg" isSynchronizedWithSource="false">
+        <methodElementProperty xmi:id="_d4ArMHOREeeXYNQ0s8Jyrg" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <presentation xmi:id="-h9GoBEnmOHwKMbwxP1fvPw" href="uma://-qvE6wd1c0sJjuOii6WUojw#-h9GoBEnmOHwKMbwxP1fvPw"/>
+        <Task href="uma://_ddJS8HN3EeeXYNQ0s8Jyrg#_mCPDAHODEeeXYNQ0s8Jyrg"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_eeL6YHOREeeXYNQ0s8Jyrg" name="search_for_workload_information_sources" guid="_eeL6YHOREeeXYNQ0s8Jyrg" presentationName="Search for Workload Information Sources" superActivities="_TGWfcXOREeeXYNQ0s8Jyrg" isSynchronizedWithSource="false">
+        <methodElementProperty xmi:id="_f7844HOREeeXYNQ0s8Jyrg" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <Task href="uma://_ddJS8HN3EeeXYNQ0s8Jyrg#_GV7y4HOPEeeXYNQ0s8Jyrg"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_cp6RkHRbEeeXYNQ0s8Jyrg" guid="_cp6RkHRbEeeXYNQ0s8Jyrg" pred="_Ubl0EHOREeeXYNQ0s8Jyrg"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_gy3SwHOREeeXYNQ0s8Jyrg" name="Modelling" guid="_gy3SwHOREeeXYNQ0s8Jyrg">
+      <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_gy3SwXOREeeXYNQ0s8Jyrg" name="Modelling" guid="_gy3SwXOREeeXYNQ0s8Jyrg" presentationName="Modelling" superActivities="_-l1BsXOQEeeXYNQ0s8Jyrg" linkToPredecessor="_23IFEHOaEeeXYNQ0s8Jyrg" breakdownElements="_kVN_MHOREeeXYNQ0s8Jyrg _CVZQEHXIEeeXYNQ0s8Jyrg _uiE0wHOREeeXYNQ0s8Jyrg _xhIm4HOREeeXYNQ0s8Jyrg"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_kVN_MHOREeeXYNQ0s8Jyrg" name="schema_extraction" guid="_kVN_MHOREeeXYNQ0s8Jyrg" presentationName="Schema Extraction" superActivities="_gy3SwXOREeeXYNQ0s8Jyrg" isSynchronizedWithSource="false">
+        <methodElementProperty xmi:id="_t5cHcHOREeeXYNQ0s8Jyrg" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <Task href="uma://_ddJS8HN3EeeXYNQ0s8Jyrg#_TKIeIHOPEeeXYNQ0s8Jyrg"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_uiE0wHOREeeXYNQ0s8Jyrg" name="obtain_workload_data" guid="_uiE0wHOREeeXYNQ0s8Jyrg" presentationName="Obtain Workload Data" isOptional="true" superActivities="_gy3SwXOREeeXYNQ0s8Jyrg" isSynchronizedWithSource="false">
+        <methodElementProperty xmi:id="_w-a7YHOREeeXYNQ0s8Jyrg" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <Task href="uma://_ddJS8HN3EeeXYNQ0s8Jyrg#_pM4joHOPEeeXYNQ0s8Jyrg"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_xhIm4HOREeeXYNQ0s8Jyrg" name="model_transformation" guid="_xhIm4HOREeeXYNQ0s8Jyrg" presentationName="Model Transformation" superActivities="_gy3SwXOREeeXYNQ0s8Jyrg" linkToPredecessor="_7__cUHOaEeeXYNQ0s8Jyrg _26VskHXIEeeXYNQ0s8Jyrg _26WToHXIEeeXYNQ0s8Jyrg" isSynchronizedWithSource="false">
+        <methodElementProperty xmi:id="_1FZX0HOREeeXYNQ0s8Jyrg" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <Task href="uma://_ddJS8HN3EeeXYNQ0s8Jyrg#_xZtbIHOPEeeXYNQ0s8Jyrg"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_23IFEHOaEeeXYNQ0s8Jyrg" guid="_23IFEHOaEeeXYNQ0s8Jyrg" pred="_TGWfcXOREeeXYNQ0s8Jyrg"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_7__cUHOaEeeXYNQ0s8Jyrg" guid="_7__cUHOaEeeXYNQ0s8Jyrg" pred="_kVN_MHOREeeXYNQ0s8Jyrg"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_CVZQEHXIEeeXYNQ0s8Jyrg" name="query_logging" guid="_CVZQEHXIEeeXYNQ0s8Jyrg" presentationName="Query Logging" isOptional="true" superActivities="_gy3SwXOREeeXYNQ0s8Jyrg" isSynchronizedWithSource="false">
+        <methodElementProperty xmi:id="_E7BOgHXIEeeXYNQ0s8Jyrg" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <Task href="uma://_ddJS8HN3EeeXYNQ0s8Jyrg#_92rpEHXHEeeXYNQ0s8Jyrg"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_26VskHXIEeeXYNQ0s8Jyrg" guid="_26VskHXIEeeXYNQ0s8Jyrg" pred="_uiE0wHOREeeXYNQ0s8Jyrg"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_26WToHXIEeeXYNQ0s8Jyrg" guid="_26WToHXIEeeXYNQ0s8Jyrg" pred="_CVZQEHXIEeeXYNQ0s8Jyrg"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_3J3xAHOREeeXYNQ0s8Jyrg" name="Simulation" guid="_3J3xAHOREeeXYNQ0s8Jyrg">
+      <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_3J3xAXOREeeXYNQ0s8Jyrg" name="Simulation" guid="_3J3xAXOREeeXYNQ0s8Jyrg" presentationName="Simulation" superActivities="_-l1BsXOQEeeXYNQ0s8Jyrg" linkToPredecessor="_4bPjMHOaEeeXYNQ0s8Jyrg" breakdownElements="_76iqsHOREeeXYNQ0s8Jyrg _DD0agHOSEeeXYNQ0s8Jyrg _GYAvIHOSEeeXYNQ0s8Jyrg"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_76iqsHOREeeXYNQ0s8Jyrg" name="obtain_cloud_price_data" guid="_76iqsHOREeeXYNQ0s8Jyrg" presentationName="Create Cloud Cost Model(s)" superActivities="_3J3xAXOREeeXYNQ0s8Jyrg" isSynchronizedWithSource="false">
+        <methodElementProperty xmi:id="_CIrA4HOSEeeXYNQ0s8Jyrg" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <Task href="uma://_ddJS8HN3EeeXYNQ0s8Jyrg#_zd7VoHOPEeeXYNQ0s8Jyrg"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_DD0agHOSEeeXYNQ0s8Jyrg" name="determine_database_performance" guid="_DD0agHOSEeeXYNQ0s8Jyrg" presentationName="Determine Database Performance" superActivities="_3J3xAXOREeeXYNQ0s8Jyrg" isSynchronizedWithSource="false">
+        <methodElementProperty xmi:id="_Fw8vIHOSEeeXYNQ0s8Jyrg" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <Task href="uma://_ddJS8HN3EeeXYNQ0s8Jyrg#_2niK4HOPEeeXYNQ0s8Jyrg"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_GYAvIHOSEeeXYNQ0s8Jyrg" name="execute_simulations" guid="_GYAvIHOSEeeXYNQ0s8Jyrg" presentationName="Simulate" superActivities="_3J3xAXOREeeXYNQ0s8Jyrg" linkToPredecessor="_6tIGQHOaEeeXYNQ0s8Jyrg _6tIGQXOaEeeXYNQ0s8Jyrg" isSynchronizedWithSource="false">
+        <methodElementProperty xmi:id="_HrnsEHOSEeeXYNQ0s8Jyrg" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <Task href="uma://_ddJS8HN3EeeXYNQ0s8Jyrg#_9AaYgHOPEeeXYNQ0s8Jyrg"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_4bPjMHOaEeeXYNQ0s8Jyrg" guid="_4bPjMHOaEeeXYNQ0s8Jyrg" pred="_gy3SwXOREeeXYNQ0s8Jyrg"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_6tIGQHOaEeeXYNQ0s8Jyrg" guid="_6tIGQHOaEeeXYNQ0s8Jyrg" pred="_76iqsHOREeeXYNQ0s8Jyrg"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_6tIGQXOaEeeXYNQ0s8Jyrg" guid="_6tIGQXOaEeeXYNQ0s8Jyrg" pred="_DD0agHOSEeeXYNQ0s8Jyrg"/>
+    </childPackages>
+    <process xsi:type="org.eclipse.epf.uma:DeliveryProcess" xmi:id="_-l1BsXOQEeeXYNQ0s8Jyrg" name="methodology" guid="_-l1BsXOQEeeXYNQ0s8Jyrg" presentationName="Option Evaluation Methodology" breakdownElements="_TGWfcXOREeeXYNQ0s8Jyrg _gy3SwXOREeeXYNQ0s8Jyrg _3J3xAXOREeeXYNQ0s8Jyrg">
+      <presentation xmi:id="-qvE6wd1c0sJjuOii6WUojw" href="uma://-qvE6wd1c0sJjuOii6WUojw#-qvE6wd1c0sJjuOii6WUojw"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

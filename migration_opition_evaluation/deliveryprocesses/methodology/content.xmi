@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma:DeliveryProcessDescription xmi:id="-qvE6wd1c0sJjuOii6WUojw" name="Method,_-l1BsXOQEeeXYNQ0s8Jyrg" guid="-qvE6wd1c0sJjuOii6WUojw"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Stncb2C21m02CqOTnfOb4Q" name="select_simulation_goal,_Ubl0EHOREeeXYNQ0s8Jyrg" guid="-Stncb2C21m02CqOTnfOb4Q">
+    <refinedDescription>&lt;p>&#xD;
+    The following cloud database migration options are supported:&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    - New cloud database instance type(s)&lt;br />&#xD;
+    - Cloud platform, region, or availability zone&lt;br />&#xD;
+    - Database deployment on a Database-as-a-Service vs. a Virtual Machine.&lt;br />&#xD;
+    - Database size growth&lt;br />&#xD;
+    - Database workload&lt;br />&#xD;
+    - Performance of the existing database&lt;br />&#xD;
+    - Migration Infrastructure (e.g., is a middleware being used, like the Amazon Database Migration Service)&lt;br />&#xD;
+    - A downtime or zero-downtime migration&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A goal should be created using some conbination of the above options. It should specifiy the information the&#xD;
+    organisation is trying to obtain.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-h9GoBEnmOHwKMbwxP1fvPw" name="determine_security_requirements,_bPM14HOREeeXYNQ0s8Jyrg" guid="-h9GoBEnmOHwKMbwxP1fvPw">
+    <refinedDescription>The security requires will be depdant on the data, database type, and the location of the source and target databases. Data&#xD;
+can be secured at-rest in the new cloud database by using a Virtual Private Cloud or storage encryption. Data can be&#xD;
+secured during transfer with a VPN or by using a database's own encyrption protocol.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+</xmi:XMI>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-7O2v2Me7yRi3Ud-hPU2mQQ" name=",_mCPDAHODEeeXYNQ0s8Jyrg" guid="-7O2v2Me7yRi3Ud-hPU2mQQ" changeDate="2017-07-28T14:16:38.304+0100">
+  <mainDescription>The security requires will be depdant on the data, database type, and the location of the source and target databases. Data&#xD;
+can be secured at-rest in the new cloud database by using a Virtual Private Cloud or storage encryption. Data can be&#xD;
+secured during transfer with a VPN or by using a database's own encyrption protocol.</mainDescription>
+  <purpose>Indenification of security requirements which require additonal (chargable) cloud inrastructure, or affect performance.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

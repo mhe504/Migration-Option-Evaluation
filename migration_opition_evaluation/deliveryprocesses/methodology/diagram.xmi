@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML">
+  <uml:Activity xmi:id="_zfXfEHOaEeeXYNQ0s8Jyrg" name="methodology">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_zfXfEXOaEeeXYNQ0s8Jyrg" source="uma_element">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zfXfEnOaEeeXYNQ0s8Jyrg" key="uri" value="uma://_-l1BsHOQEeeXYNQ0s8Jyrg#_-l1BsXOQEeeXYNQ0s8Jyrg"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zfXfE3OaEeeXYNQ0s8Jyrg" key="type" value="Activity"/>
+    </eAnnotations>
+    <node xmi:type="uml:StructuredActivityNode" xmi:id="_zgHF8HOaEeeXYNQ0s8Jyrg" name="Planning" outgoing="_23IFEXOaEeeXYNQ0s8Jyrg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_zgHF8XOaEeeXYNQ0s8Jyrg" source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zgHF8nOaEeeXYNQ0s8Jyrg" key="uri" value="uma://_-l1BsHOQEeeXYNQ0s8Jyrg#_TGWfcXOREeeXYNQ0s8Jyrg"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zgHF83OaEeeXYNQ0s8Jyrg" key="type" value="Phase"/>
+      </eAnnotations>
+    </node>
+    <node xmi:type="uml:StructuredActivityNode" xmi:id="_zgHF9HOaEeeXYNQ0s8Jyrg" name="Modelling" outgoing="_4bPjMXOaEeeXYNQ0s8Jyrg" incoming="_23IFEXOaEeeXYNQ0s8Jyrg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_zgHF9XOaEeeXYNQ0s8Jyrg" source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zgHF9nOaEeeXYNQ0s8Jyrg" key="uri" value="uma://_-l1BsHOQEeeXYNQ0s8Jyrg#_gy3SwXOREeeXYNQ0s8Jyrg"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zgHF93OaEeeXYNQ0s8Jyrg" key="type" value="Phase"/>
+      </eAnnotations>
+    </node>
+    <node xmi:type="uml:StructuredActivityNode" xmi:id="_zgHF-HOaEeeXYNQ0s8Jyrg" name="Simulation" incoming="_4bPjMXOaEeeXYNQ0s8Jyrg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_zgHF-XOaEeeXYNQ0s8Jyrg" source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zgHF-nOaEeeXYNQ0s8Jyrg" key="uri" value="uma://_-l1BsHOQEeeXYNQ0s8Jyrg#_3J3xAXOREeeXYNQ0s8Jyrg"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zgHF-3OaEeeXYNQ0s8Jyrg" key="type" value="Phase"/>
+      </eAnnotations>
+    </node>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_23IFEXOaEeeXYNQ0s8Jyrg" source="_zgHF8HOaEeeXYNQ0s8Jyrg" target="_zgHF9HOaEeeXYNQ0s8Jyrg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_4bPjMXOaEeeXYNQ0s8Jyrg" source="_zgHF9HOaEeeXYNQ0s8Jyrg" target="_zgHF-HOaEeeXYNQ0s8Jyrg"/>
+  </uml:Activity>
+  <notation:Diagram xmi:id="_zfXfFHOaEeeXYNQ0s8Jyrg" type="AD" element="_zfXfEHOaEeeXYNQ0s8Jyrg" name="methodology" measurementUnit="Pixel">
+    <styles xmi:type="notation:PageStyle" xmi:id="_zfXfFXOaEeeXYNQ0s8Jyrg"/>
+    <styles xmi:type="notation:GuideStyle" xmi:id="_zfXfFnOaEeeXYNQ0s8Jyrg"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_zfXfF3OaEeeXYNQ0s8Jyrg"/>
+  </notation:Diagram>
+  <uml:Activity xmi:id="_0TviUHOaEeeXYNQ0s8Jyrg" name="Planning">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0TviUXOaEeeXYNQ0s8Jyrg" source="uma_element">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0TviUnOaEeeXYNQ0s8Jyrg" key="uri" value="uma://_-l1BsHOQEeeXYNQ0s8Jyrg#_TGWfcXOREeeXYNQ0s8Jyrg"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0TviU3OaEeeXYNQ0s8Jyrg" key="type" value="Phase"/>
+    </eAnnotations>
+    <node xmi:type="uml:ActivityParameterNode" xmi:id="_0T5TUHOaEeeXYNQ0s8Jyrg" name="Select Simulation Goal" outgoing="_cp6RkXRbEeeXYNQ0s8Jyrg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0T5TUXOaEeeXYNQ0s8Jyrg" source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0T5TUnOaEeeXYNQ0s8Jyrg" key="uri" value="uma://_-l1BsHOQEeeXYNQ0s8Jyrg#_Ubl0EHOREeeXYNQ0s8Jyrg"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0T5TU3OaEeeXYNQ0s8Jyrg" key="type" value="Task"/>
+      </eAnnotations>
+    </node>
+    <node xmi:type="uml:ActivityParameterNode" xmi:id="_0T5TVHOaEeeXYNQ0s8Jyrg" name="Determine Security Requirements" incoming="_cp6RkXRbEeeXYNQ0s8Jyrg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0T5TVXOaEeeXYNQ0s8Jyrg" source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0T5TVnOaEeeXYNQ0s8Jyrg" key="uri" value="uma://_-l1BsHOQEeeXYNQ0s8Jyrg#_bPM14HOREeeXYNQ0s8Jyrg"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0T5TV3OaEeeXYNQ0s8Jyrg" key="type" value="Task"/>
+      </eAnnotations>
+    </node>
+    <node xmi:type="uml:ActivityParameterNode" xmi:id="_0T5TWHOaEeeXYNQ0s8Jyrg" name="Search for Workload Information Sources">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0T5TWXOaEeeXYNQ0s8Jyrg" source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0T5TWnOaEeeXYNQ0s8Jyrg" key="uri" value="uma://_-l1BsHOQEeeXYNQ0s8Jyrg#_eeL6YHOREeeXYNQ0s8Jyrg"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0T5TW3OaEeeXYNQ0s8Jyrg" key="type" value="Task"/>
+      </eAnnotations>
+    </node>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_cp6RkXRbEeeXYNQ0s8Jyrg" source="_0T5TUHOaEeeXYNQ0s8Jyrg" target="_0T5TVHOaEeeXYNQ0s8Jyrg"/>
+  </uml:Activity>
+  <notation:Diagram xmi:id="_0TviVHOaEeeXYNQ0s8Jyrg" type="AD" element="_0TviUHOaEeeXYNQ0s8Jyrg" name="Planning" measurementUnit="Pixel">
+    <children xmi:type="notation:Node" xmi:id="_0VwUgHOaEeeXYNQ0s8Jyrg" type="1009" element="_0T5TUHOaEeeXYNQ0s8Jyrg">
+      <children xmi:type="notation:Node" xmi:id="_0VwUhnOaEeeXYNQ0s8Jyrg" type="4008"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_0VwUgXOaEeeXYNQ0s8Jyrg" fontName="Arial" fontHeight="8"/>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_0VwUgnOaEeeXYNQ0s8Jyrg"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_0VwUg3OaEeeXYNQ0s8Jyrg"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_0VwUhHOaEeeXYNQ0s8Jyrg" lineColor="0"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0VwUhXOaEeeXYNQ0s8Jyrg" x="215" y="65"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_0VwUh3OaEeeXYNQ0s8Jyrg" type="1009" element="_0T5TVHOaEeeXYNQ0s8Jyrg">
+      <children xmi:type="notation:Node" xmi:id="_0VwUjXOaEeeXYNQ0s8Jyrg" type="4008"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_0VwUiHOaEeeXYNQ0s8Jyrg" fontName="Arial" fontHeight="8"/>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_0VwUiXOaEeeXYNQ0s8Jyrg"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_0VwUinOaEeeXYNQ0s8Jyrg"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_0VwUi3OaEeeXYNQ0s8Jyrg" lineColor="0"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0VwUjHOaEeeXYNQ0s8Jyrg" x="380" y="65"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_0VwUjnOaEeeXYNQ0s8Jyrg" type="1009" element="_0T5TWHOaEeeXYNQ0s8Jyrg">
+      <children xmi:type="notation:Node" xmi:id="_0VwUlHOaEeeXYNQ0s8Jyrg" type="4008"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_0VwUj3OaEeeXYNQ0s8Jyrg" fontName="Arial" fontHeight="8"/>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_0VwUkHOaEeeXYNQ0s8Jyrg"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_0VwUkXOaEeeXYNQ0s8Jyrg"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_0VwUknOaEeeXYNQ0s8Jyrg" lineColor="0"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0VwUk3OaEeeXYNQ0s8Jyrg" x="270" y="155"/>
+    </children>
+    <styles xmi:type="notation:PageStyle" xmi:id="_0TviVXOaEeeXYNQ0s8Jyrg"/>
+    <styles xmi:type="notation:GuideStyle" xmi:id="_0TviVnOaEeeXYNQ0s8Jyrg"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_0TviV3OaEeeXYNQ0s8Jyrg"/>
+  </notation:Diagram>
+  <uml:Activity xmi:id="__2LDsHOaEeeXYNQ0s8Jyrg" name="Modelling">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__2LDsXOaEeeXYNQ0s8Jyrg" source="uma_element">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__2LDsnOaEeeXYNQ0s8Jyrg" key="uri" value="uma://_-l1BsHOQEeeXYNQ0s8Jyrg#_gy3SwXOREeeXYNQ0s8Jyrg"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__2LDs3OaEeeXYNQ0s8Jyrg" key="type" value="Phase"/>
+    </eAnnotations>
+    <node xmi:type="uml:ActivityParameterNode" xmi:id="__2w5kHOaEeeXYNQ0s8Jyrg" name="Schema Extraction" outgoing="__2w5nHOaEeeXYNQ0s8Jyrg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__2w5kXOaEeeXYNQ0s8Jyrg" source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__2w5knOaEeeXYNQ0s8Jyrg" key="uri" value="uma://_-l1BsHOQEeeXYNQ0s8Jyrg#_kVN_MHOREeeXYNQ0s8Jyrg"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__2w5k3OaEeeXYNQ0s8Jyrg" key="type" value="Task"/>
+      </eAnnotations>
+    </node>
+    <node xmi:type="uml:ActivityParameterNode" xmi:id="__2w5lHOaEeeXYNQ0s8Jyrg" name="Obtain Workload Data" isLeaf="true" outgoing="__2w5nXOaEeeXYNQ0s8Jyrg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__2w5lXOaEeeXYNQ0s8Jyrg" source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__2w5lnOaEeeXYNQ0s8Jyrg" key="uri" value="uma://_-l1BsHOQEeeXYNQ0s8Jyrg#_uiE0wHOREeeXYNQ0s8Jyrg"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__2w5l3OaEeeXYNQ0s8Jyrg" key="type" value="Task"/>
+      </eAnnotations>
+    </node>
+    <node xmi:type="uml:ActivityParameterNode" xmi:id="__2w5mHOaEeeXYNQ0s8Jyrg" name="Model Transformation" incoming="__2w5nHOaEeeXYNQ0s8Jyrg _26UecHXIEeeXYNQ0s8Jyrg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__2w5mXOaEeeXYNQ0s8Jyrg" source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__2w5mnOaEeeXYNQ0s8Jyrg" key="uri" value="uma://_-l1BsHOQEeeXYNQ0s8Jyrg#_xhIm4HOREeeXYNQ0s8Jyrg"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__2w5m3OaEeeXYNQ0s8Jyrg" key="type" value="Task"/>
+      </eAnnotations>
+    </node>
+    <node xmi:type="uml:ActivityParameterNode" xmi:id="_a-7xoHXIEeeXYNQ0s8Jyrg" name="Query Logging" outgoing="_a-8YsHXIEeeXYNQ0s8Jyrg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_a-7xoXXIEeeXYNQ0s8Jyrg" source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_a-7xonXIEeeXYNQ0s8Jyrg" key="uri" value="uma://_-l1BsHOQEeeXYNQ0s8Jyrg#_CVZQEHXIEeeXYNQ0s8Jyrg"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_a-7xo3XIEeeXYNQ0s8Jyrg" key="type" value="Task"/>
+      </eAnnotations>
+    </node>
+    <node xmi:type="uml:JoinNode" xmi:id="_ymeDoHXIEeeXYNQ0s8Jyrg" outgoing="_26UecHXIEeeXYNQ0s8Jyrg" incoming="__2w5nXOaEeeXYNQ0s8Jyrg _a-8YsHXIEeeXYNQ0s8Jyrg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="__2w5nHOaEeeXYNQ0s8Jyrg" source="__2w5kHOaEeeXYNQ0s8Jyrg" target="__2w5mHOaEeeXYNQ0s8Jyrg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="__2w5nXOaEeeXYNQ0s8Jyrg" source="__2w5lHOaEeeXYNQ0s8Jyrg" target="_ymeDoHXIEeeXYNQ0s8Jyrg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_a-8YsHXIEeeXYNQ0s8Jyrg" source="_a-7xoHXIEeeXYNQ0s8Jyrg" target="_ymeDoHXIEeeXYNQ0s8Jyrg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_26UecHXIEeeXYNQ0s8Jyrg" source="_ymeDoHXIEeeXYNQ0s8Jyrg" target="__2w5mHOaEeeXYNQ0s8Jyrg"/>
+  </uml:Activity>
+  <notation:Diagram xmi:id="__2LDtHOaEeeXYNQ0s8Jyrg" type="AD" element="__2LDsHOaEeeXYNQ0s8Jyrg" name="Modelling" measurementUnit="Pixel">
+    <children xmi:type="notation:Node" xmi:id="__4Z4UHOaEeeXYNQ0s8Jyrg" type="1009" element="__2w5kHOaEeeXYNQ0s8Jyrg">
+      <children xmi:type="notation:Node" xmi:id="__4Z4VnOaEeeXYNQ0s8Jyrg" type="4008"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="__4Z4UXOaEeeXYNQ0s8Jyrg" fontName="Arial" fontHeight="8"/>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="__4Z4UnOaEeeXYNQ0s8Jyrg"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="__4Z4U3OaEeeXYNQ0s8Jyrg"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="__4Z4VHOaEeeXYNQ0s8Jyrg" lineColor="0"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="__4Z4VXOaEeeXYNQ0s8Jyrg" x="115" y="60"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="__4Z4V3OaEeeXYNQ0s8Jyrg" type="1009" element="__2w5lHOaEeeXYNQ0s8Jyrg">
+      <children xmi:type="notation:Node" xmi:id="__4Z4XXOaEeeXYNQ0s8Jyrg" type="4008"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="__4Z4WHOaEeeXYNQ0s8Jyrg" fontName="Arial" fontHeight="8"/>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="__4Z4WXOaEeeXYNQ0s8Jyrg"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="__4Z4WnOaEeeXYNQ0s8Jyrg"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="__4Z4W3OaEeeXYNQ0s8Jyrg" lineColor="0"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="__4Z4XHOaEeeXYNQ0s8Jyrg" x="220" y="60"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="__4Z4XnOaEeeXYNQ0s8Jyrg" type="1009" element="__2w5mHOaEeeXYNQ0s8Jyrg">
+      <children xmi:type="notation:Node" xmi:id="__4Z4ZHOaEeeXYNQ0s8Jyrg" type="4008"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="__4Z4X3OaEeeXYNQ0s8Jyrg" fontName="Arial" fontHeight="8"/>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="__4Z4YHOaEeeXYNQ0s8Jyrg"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="__4Z4YXOaEeeXYNQ0s8Jyrg"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="__4Z4YnOaEeeXYNQ0s8Jyrg" lineColor="0"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="__4Z4Y3OaEeeXYNQ0s8Jyrg" x="210" y="170"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_a-8_wHXIEeeXYNQ0s8Jyrg" type="1009" element="_a-7xoHXIEeeXYNQ0s8Jyrg">
+      <children xmi:type="notation:Node" xmi:id="_a--N4HXIEeeXYNQ0s8Jyrg" type="4008"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_a-8_wXXIEeeXYNQ0s8Jyrg" fontName="Arial" fontHeight="8"/>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_a-8_wnXIEeeXYNQ0s8Jyrg"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_a-9m0HXIEeeXYNQ0s8Jyrg"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_a-9m0XXIEeeXYNQ0s8Jyrg" lineColor="0"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a-9m0nXIEeeXYNQ0s8Jyrg" x="335" y="60"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_ymeqsHXIEeeXYNQ0s8Jyrg" type="1006" element="_ymeDoHXIEeeXYNQ0s8Jyrg">
+      <styles xmi:type="notation:FontStyle" xmi:id="_ymeqsXXIEeeXYNQ0s8Jyrg" fontName="Arial" fontHeight="8"/>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_ymeqsnXIEeeXYNQ0s8Jyrg"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_ymeqs3XIEeeXYNQ0s8Jyrg"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_ymeqtHXIEeeXYNQ0s8Jyrg" lineColor="0"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ymeqtXXIEeeXYNQ0s8Jyrg" x="265" y="130"/>
+    </children>
+    <styles xmi:type="notation:PageStyle" xmi:id="__2LDtXOaEeeXYNQ0s8Jyrg"/>
+    <styles xmi:type="notation:GuideStyle" xmi:id="__2LDtnOaEeeXYNQ0s8Jyrg"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="__2LDt3OaEeeXYNQ0s8Jyrg"/>
+    <edges xmi:type="notation:Edge" xmi:id="__4jCQHOaEeeXYNQ0s8Jyrg" type="3001" element="__2w5nXOaEeeXYNQ0s8Jyrg" source="__4Z4V3OaEeeXYNQ0s8Jyrg" target="_ymeqsHXIEeeXYNQ0s8Jyrg">
+      <children xmi:type="notation:Node" xmi:id="__4jCRXOaEeeXYNQ0s8Jyrg" type="4012">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="__4jCRnOaEeeXYNQ0s8Jyrg" y="40"/>
+      </children>
+      <styles xmi:type="notation:RoutingStyle" xmi:id="__4jCQXOaEeeXYNQ0s8Jyrg"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="__4jCQnOaEeeXYNQ0s8Jyrg" fontName="Arial" fontHeight="8"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="__4jCQ3OaEeeXYNQ0s8Jyrg" lineColor="0"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="__4jCRHOaEeeXYNQ0s8Jyrg" points="[0, 0, 61, -60]$[-61, 60, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="__5JfMHOaEeeXYNQ0s8Jyrg" id="(0.49523809523809526,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="__5JfMXOaEeeXYNQ0s8Jyrg" id="(0.23,0.375)"/>
+    </edges>
+    <edges xmi:type="notation:Edge" xmi:id="__4jCR3OaEeeXYNQ0s8Jyrg" type="3001" element="__2w5nHOaEeeXYNQ0s8Jyrg" source="__4Z4UHOaEeeXYNQ0s8Jyrg" target="__4Z4XnOaEeeXYNQ0s8Jyrg">
+      <children xmi:type="notation:Node" xmi:id="__4jCTHOaEeeXYNQ0s8Jyrg" type="4012">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="__4jCTXOaEeeXYNQ0s8Jyrg" y="40"/>
+      </children>
+      <styles xmi:type="notation:RoutingStyle" xmi:id="__4jCSHOaEeeXYNQ0s8Jyrg"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="__4jCSXOaEeeXYNQ0s8Jyrg" fontName="Arial" fontHeight="8"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="__4jCSnOaEeeXYNQ0s8Jyrg" lineColor="0"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="__4jCS3OaEeeXYNQ0s8Jyrg" points="[0, 0, -62, -60]$[62, 60, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="__5JfMnOaEeeXYNQ0s8Jyrg" id="(0.4945054945054945,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="__5JfM3OaEeeXYNQ0s8Jyrg" id="(0.3333333333333333,0.0)"/>
+    </edges>
+    <edges xmi:type="notation:Edge" xmi:id="_a-_cAHXIEeeXYNQ0s8Jyrg" type="3001" element="_a-8YsHXIEeeXYNQ0s8Jyrg" source="_a-8_wHXIEeeXYNQ0s8Jyrg" target="_ymeqsHXIEeeXYNQ0s8Jyrg">
+      <children xmi:type="notation:Node" xmi:id="_a_ADEHXIEeeXYNQ0s8Jyrg" type="4012">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_a_ADEXXIEeeXYNQ0s8Jyrg" y="40"/>
+      </children>
+      <styles xmi:type="notation:RoutingStyle" xmi:id="_a-_cAXXIEeeXYNQ0s8Jyrg"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_a-_cAnXIEeeXYNQ0s8Jyrg" fontName="Arial" fontHeight="8"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_a-_cA3XIEeeXYNQ0s8Jyrg" lineColor="0"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_a-_cBHXIEeeXYNQ0s8Jyrg" points="[-33, 25, 33, -25]$[-61, 46, 5, -4]"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_CoofsHXJEeeXYNQ0s8Jyrg" id="(0.77,0.5)"/>
+    </edges>
+    <edges xmi:type="notation:Edge" xmi:id="_26XhwHXIEeeXYNQ0s8Jyrg" type="3001" element="_26UecHXIEeeXYNQ0s8Jyrg" source="_ymeqsHXIEeeXYNQ0s8Jyrg" target="__4Z4XnOaEeeXYNQ0s8Jyrg">
+      <children xmi:type="notation:Node" xmi:id="_26YI0HXIEeeXYNQ0s8Jyrg" type="4012">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_26YI0XXIEeeXYNQ0s8Jyrg" y="40"/>
+      </children>
+      <styles xmi:type="notation:RoutingStyle" xmi:id="_26XhwXXIEeeXYNQ0s8Jyrg"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_26XhwnXIEeeXYNQ0s8Jyrg" fontName="Arial" fontHeight="8"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_26Xhw3XIEeeXYNQ0s8Jyrg" lineColor="0"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_26XhxHXIEeeXYNQ0s8Jyrg" points="[-20, 8, 265, -133]$[-288, 88, -3, -53]"/>
+    </edges>
+  </notation:Diagram>
+  <uml:Activity xmi:id="_A0xZ8HObEeeXYNQ0s8Jyrg" name="Simulation">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_A0xZ8XObEeeXYNQ0s8Jyrg" source="uma_element">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_A0xZ8nObEeeXYNQ0s8Jyrg" key="uri" value="uma://_-l1BsHOQEeeXYNQ0s8Jyrg#_3J3xAXOREeeXYNQ0s8Jyrg"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_A0xZ83ObEeeXYNQ0s8Jyrg" key="type" value="Phase"/>
+    </eAnnotations>
+    <node xmi:type="uml:ActivityParameterNode" xmi:id="_A1E78HObEeeXYNQ0s8Jyrg" name="Create Cloud Cost Model(s)" outgoing="_A1E7_HObEeeXYNQ0s8Jyrg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_A1E78XObEeeXYNQ0s8Jyrg" source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_A1E78nObEeeXYNQ0s8Jyrg" key="uri" value="uma://_-l1BsHOQEeeXYNQ0s8Jyrg#_76iqsHOREeeXYNQ0s8Jyrg"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_A1E783ObEeeXYNQ0s8Jyrg" key="type" value="Task"/>
+      </eAnnotations>
+    </node>
+    <node xmi:type="uml:ActivityParameterNode" xmi:id="_A1E79HObEeeXYNQ0s8Jyrg" name="Determine Database Performance" outgoing="_A1E7_XObEeeXYNQ0s8Jyrg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_A1E79XObEeeXYNQ0s8Jyrg" source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_A1E79nObEeeXYNQ0s8Jyrg" key="uri" value="uma://_-l1BsHOQEeeXYNQ0s8Jyrg#_DD0agHOSEeeXYNQ0s8Jyrg"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_A1E793ObEeeXYNQ0s8Jyrg" key="type" value="Task"/>
+      </eAnnotations>
+    </node>
+    <node xmi:type="uml:ActivityParameterNode" xmi:id="_A1E7-HObEeeXYNQ0s8Jyrg" name="Simulate" incoming="_A1E7_HObEeeXYNQ0s8Jyrg _A1E7_XObEeeXYNQ0s8Jyrg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_A1E7-XObEeeXYNQ0s8Jyrg" source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_A1E7-nObEeeXYNQ0s8Jyrg" key="uri" value="uma://_-l1BsHOQEeeXYNQ0s8Jyrg#_GYAvIHOSEeeXYNQ0s8Jyrg"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_A1E7-3ObEeeXYNQ0s8Jyrg" key="type" value="Task"/>
+      </eAnnotations>
+    </node>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_A1E7_HObEeeXYNQ0s8Jyrg" source="_A1E78HObEeeXYNQ0s8Jyrg" target="_A1E7-HObEeeXYNQ0s8Jyrg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_A1E7_XObEeeXYNQ0s8Jyrg" source="_A1E79HObEeeXYNQ0s8Jyrg" target="_A1E7-HObEeeXYNQ0s8Jyrg"/>
+  </uml:Activity>
+  <notation:Diagram xmi:id="_A0xZ9HObEeeXYNQ0s8Jyrg" type="AD" element="_A0xZ8HObEeeXYNQ0s8Jyrg" name="Simulation" measurementUnit="Pixel">
+    <children xmi:type="notation:Node" xmi:id="_A2tToHObEeeXYNQ0s8Jyrg" type="1009" element="_A1E78HObEeeXYNQ0s8Jyrg">
+      <children xmi:type="notation:Node" xmi:id="_A2tTpnObEeeXYNQ0s8Jyrg" type="4008"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_A2tToXObEeeXYNQ0s8Jyrg" fontName="Arial" fontHeight="8"/>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_A2tTonObEeeXYNQ0s8Jyrg"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_A2tTo3ObEeeXYNQ0s8Jyrg"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_A2tTpHObEeeXYNQ0s8Jyrg" lineColor="0"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_A2tTpXObEeeXYNQ0s8Jyrg" x="105" y="35"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_A2tTp3ObEeeXYNQ0s8Jyrg" type="1009" element="_A1E79HObEeeXYNQ0s8Jyrg">
+      <children xmi:type="notation:Node" xmi:id="_A2tTrXObEeeXYNQ0s8Jyrg" type="4008"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_A2tTqHObEeeXYNQ0s8Jyrg" fontName="Arial" fontHeight="8"/>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_A2tTqXObEeeXYNQ0s8Jyrg"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_A2tTqnObEeeXYNQ0s8Jyrg"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_A2tTq3ObEeeXYNQ0s8Jyrg" lineColor="0"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_A2tTrHObEeeXYNQ0s8Jyrg" x="260" y="35"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_A2tTrnObEeeXYNQ0s8Jyrg" type="1009" element="_A1E7-HObEeeXYNQ0s8Jyrg">
+      <children xmi:type="notation:Node" xmi:id="_A2tTtHObEeeXYNQ0s8Jyrg" type="4008"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_A2tTr3ObEeeXYNQ0s8Jyrg" fontName="Arial" fontHeight="8"/>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_A2tTsHObEeeXYNQ0s8Jyrg"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_A2tTsXObEeeXYNQ0s8Jyrg"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_A2tTsnObEeeXYNQ0s8Jyrg" lineColor="0"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_A2tTs3ObEeeXYNQ0s8Jyrg" x="225" y="140"/>
+    </children>
+    <styles xmi:type="notation:PageStyle" xmi:id="_A0xZ9XObEeeXYNQ0s8Jyrg"/>
+    <styles xmi:type="notation:GuideStyle" xmi:id="_A0xZ9nObEeeXYNQ0s8Jyrg"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_A0xZ93ObEeeXYNQ0s8Jyrg"/>
+  </notation:Diagram>
+</xmi:XMI>
